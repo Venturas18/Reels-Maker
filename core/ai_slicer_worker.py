@@ -15,7 +15,7 @@ try:
 except ImportError:
     WHISPER_AVAILABLE = False
 
-from ..utils.text_generator import TextGenerator
+from utils.text_generator import TextGenerator
 
 
 class AiSlicerWorker(QThread):
