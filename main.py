@@ -5,7 +5,6 @@ from PyQt6.QtWidgets import QApplication
 
 # Настройка путей
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(BASE_DIR, 'src'))
 
 try:
     from ui.main_window import MainWindow

@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QListWidget,
                              QStackedWidget, QListWidgetItem, QFrame)
-from .uniqualizer_tab import UniqualizerTab
-from .ai_slicer_tab import AiSlicerTab
+from ui.uniqualizer_tab import UniqualizerTab
+from ui.ai_slicer_tab import AiSlicerTab
 
 # Темная тема (Оптимизированная)
 DARK_THEME = """
