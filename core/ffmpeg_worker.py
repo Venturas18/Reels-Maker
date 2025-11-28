@@ -3,7 +3,7 @@ import subprocess
 import random
 import re
 from PyQt6.QtCore import QThread, pyqtSignal
-from ..utils.generators import generate_unique_filename, get_random_device_metadata
+from utils.generators import generate_unique_filename, get_random_device_metadata
 
 
 class ProcessingWorker(QThread):

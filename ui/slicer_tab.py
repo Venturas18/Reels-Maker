@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (
     QGroupBox, QCheckBox, QColorDialog, QFrame, QSpinBox, QSlider
 )
 from PyQt6.QtCore import Qt
-from ..core.slicer_worker import SlicerWorker
+from core.slicer_worker import SlicerWorker
 
 
 class SlicerTab(QWidget):

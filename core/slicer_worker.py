@@ -4,7 +4,7 @@ import re
 import textwrap
 import shutil  # Добавил для надежности
 from PyQt6.QtCore import QThread, pyqtSignal
-from ..utils.text_generator import TextGenerator
+from utils.text_generator import TextGenerator
 
 
 class SlicerWorker(QThread):
